@@ -1,0 +1,12 @@
+body {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBCu0zyWY7gh7CBrdJnVdD2hp8NqkeVoB9LEKiSFlnNZdXVqhi");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.songs {
+  background-color: light-blue;
+  font-family: "Times NewRoman", Times, serif;
+}
+.songTitle {
+  width:fit-content;
+}
