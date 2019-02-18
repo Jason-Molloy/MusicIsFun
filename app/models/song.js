@@ -11,22 +11,19 @@ export default class Song {
 
   getTemplate() {
     return `
-        <div class="col-12">
-          <div class="row d-flex">
-            <img src="${this.albumArt}">
-            <h3 class="songTitle">${this.title} - ${this.artist}</h3>
-          </div>
-          <div class="row">
-            <div class="col-10">
-              <h5>Album: ${this.collection} - Download Album: ${this.price}</h5>
-            </div>
-            <div class="col-2">
+        <div class="row d-flex"> 
+          <div class="card" style="width: 18rem;">
+            <img src="${this.albumArt}" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title songTitle">${this.title} - ${this.artist}</h5>
+              <p class="card-text">Album: ${this.collection} - Download Album: ${this.price}</p>
               <audio controls>
                 <source src="${this.preview}">
               </audio>
             </div>
           </div>
         </div>
+        
   `
   }
 }
