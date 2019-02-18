@@ -10,3 +10,11 @@ background-repeat: no-repeat;
 .songTitle {
   width: fit-content;
 }
+.card {
+  height: 200px;
+  overflow: scroll;
+  border: 2px solid blue;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: mediumslateblue;
+}
