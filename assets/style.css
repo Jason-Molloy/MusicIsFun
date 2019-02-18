@@ -12,9 +12,14 @@ background-repeat: no-repeat;
 }
 .card {
   height: 200px;
+  width: 400px;
   overflow: scroll;
   border: 2px solid blue;
   margin: 5px;
   border-radius: 10px;
-  background-color: mediumslateblue;
+  opacity: 0;
+}
+#top {
+  height: 200px;
+  width: cover;
 }
